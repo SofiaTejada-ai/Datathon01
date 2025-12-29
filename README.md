@@ -25,13 +25,8 @@ This project builds and evaluates machine learning models to estimate average di
 - pandas, NumPy
 - Matplotlib (and Seaborn, if used in notebooks)
 
-## Repository Structure (suggested)
-- `data/` input datasets (not included if private)
-- `notebooks/` EDA and experiments
-- `train_model.py` training entry point
-- `predict.py` inference script
-- `requirements.txt` dependencies
-
+## Repository Structure
+- `datathon-2025-v2 (1).ipynb` 
 ## Setup
 ```
 git clone https://github.com/SofiaTejada-ai/Datathon-2025-v2.git
@@ -41,13 +36,6 @@ python -m venv env
 source env/bin/activate    # macOS/Linux
 # env\Scripts\activate     # Windows
 
-pip install -r requirements.txt
-```
-
-Train
-```
-python train_model.py
-```
 
 
 Usage Notes
