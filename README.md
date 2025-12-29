@@ -1,64 +1,66 @@
-Loan Disbursement Prediction Model
-Project Overview
+# Loan Disbursement Prediction Model
 
-This project focuses on developing a highly accurate supervised learning model to predict the average disbursed loan using advanced machine learning techniques. The model achieved 96% accuracy and was recognized with the Best Supervised Model award for its predictive performance and innovation.
+Supervised a regression learning project that predicts average loan disbursement amounts using engineered financial features and tree-based models. The final approach achieved strong performance and received a Best Supervised Model award.
 
-Key Features:
-* Supervised Learning Model: Utilized XGBoost and RandomForest for high-accuracy loan predictions.
-* Feature Engineering: Developed advanced features, including:
-Tuition-to-income ratios
-Career pay projections
-Other relevant financial indicators
-* Model Optimization:
- - Cross-validation: Implemented KFold (3 splits) to improve generalization.
- - Hyperparameter tuning: Applied RandomizedSearchCV to optimize model efficiency.
-* Data Preprocessing Pipelines:
- - Missing value imputation
-- Feature scaling and transformation
-- Ensured clean and structured input data for robust predictions
-* Collaboration & Award Recognition:
- - Worked closely with a team to refine the model.
- - Achieved the Best Supervised Model award for outstanding predictive accuracy and methodological innovation.
+## Overview
+This project builds and evaluates machine learning models to estimate average disbursed loan amounts. It includes feature engineering, preprocessing pipelines, cross-validation, and hyperparameter tuning to improve generalization and reliability.
 
-Tech Stack
-*Programming Language: Python
-*Libraries & Tools:
- - XGBoost
- - Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib & Seaborn (for data visualization)
+## Highlights
+- Models: XGBoost, Random Forest
+- Feature engineering examples:
+  - Tuition-to-income ratio
+  - Career pay projection features
+  - Additional financial indicators derived from the dataset
+- Validation: K-Fold cross-validation (3 splits)
+- Optimization: RandomizedSearchCV for hyperparameter tuning
+- Preprocessing:
+  - Missing value imputation
+  - Feature scaling and transformations (as needed by the pipeline)
+- Recognition: Best Supervised Model award (team project)
 
-Installation process:
+## Tech Stack
+- Python
+- XGBoost
+- scikit-learn
+- pandas, NumPy
+- Matplotlib (and Seaborn, if used in notebooks)
 
-Kaggle Link
-Access the project on Kaggle: https://www.kaggle.com/code/sofiatejada01/datathon-2025-v2/edit
+## Repository Structure (suggested)
+- `data/` input datasets (not included if private)
+- `notebooks/` EDA and experiments
+- `train_model.py` training entry point
+- `predict.py` inference script
+- `requirements.txt` dependencies
 
-1. Clone the repository:
+## Setup
+```
 git clone https://github.com/SofiaTejada-ai/Datathon-2025-v2.git
 cd Datathon-2025-v2
 
-2. Create a virtual environment (recommended):
 python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+source env/bin/activate    # macOS/Linux
+# env\Scripts\activate     # Windows
 
-4. Install dependencies:
 pip install -r requirements.txt
+```
 
-5.Run the model training script:
+Train
+```
 python train_model.py
-
-*Usage:
-Modify the input dataset in the data/ folder.
-Adjust hyperparameters in the config.json file (if applicable).
-Run predict.py to generate loan predictions for new data.
+```
 
 
-Contributors
-Sofia Tejada – Model development, data analyzer
-Christopher Chan, Matthew Marrietta, Helen Ton – Data preprocessing, analysis, validation
+Usage Notes
 
-Contact:
-For any inquiries, please reach out via:
-Email: sofiatejada001@gmail.com
-LinkedIn: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+Place or replace the dataset in data/
+
+Adjust model settings in config.json (if present)
+
+Run training to reproduce metrics, then run prediction for new inputs
+
+Results
+
+Reported performance: 96% accuracy (see notebook / training output for details)
+
+Award: Best Supervised Model (datathon)
+
