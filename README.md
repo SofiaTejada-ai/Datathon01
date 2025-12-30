@@ -29,7 +29,7 @@ This project builds and evaluates machine learning models to estimate average di
 - `datathon-2025-v2 (1).ipynb` 
 ## Setup
 ```
-git clone https://github.com/SofiaTejada-ai/Datathon-2025-v2.git
+git clone https://github.com/SofiaTejada-ai/Datathon01.git
 cd Datathon-2025-v2
 
 python -m venv env
