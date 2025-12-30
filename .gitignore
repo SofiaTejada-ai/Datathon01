@@ -1,49 +1,12 @@
-# =========================
-# Data (DO NOT COMMIT)
-# =========================
 data/
 *.zip
-*.csv
-*.parquet
-*.feather
-
-# If you want to allow small sample CSVs later, remove "*.csv" and only ignore data/
-# data/
-
-# =========================
-# Python
-# =========================
+.ipynb_checkpoints/
+.idea/
 __pycache__/
 *.py[cod]
-*.pyd
-*.so
-*.egg-info/
-dist/
-build/
-.eggs/
-
-# Virtual environments
-env/
-venv/
+.env
 .venv/
-ENV/
-.python-version
-
-# =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-*.nbconvert.ipynb
-
-# =========================
-# PyCharm / IntelliJ
-# =========================
-.idea/
-*.iml
-
-# =========================
-# macOS
-# =========================
+venv/
+env/
 .DS_Store
-
-# ======
+submission.csv
