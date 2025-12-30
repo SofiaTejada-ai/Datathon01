@@ -50,6 +50,16 @@ source env/bin/activate    # macOS/Linux
 
 pip install -r requirements.txt
 ```
+or
+```
+git clone https://github.com/SofiaTejada-ai/Datathon01.git
+cd Datathon01
+python -m venv env
+source env/bin/activate #macOS/Linux
+env\Scripts\activate     # Windows
+pip install -r requirements.txt
+python -m ipykernel install --user --name datathon01-env --display-name "Python (datathon01-env)"
+```
 
 2) Download the dataset (Kaggle competition)
 
